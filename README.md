@@ -11,6 +11,23 @@ As we did not want to change or modify the AGOpenGPS code, we use the following 
 - To lower the geometric challange, the delta layer is filled with a mesh of squares; we use two sizes of squares, to balance the amount of squares on large, unapplied areas and also to have a higher accuracy on edges, etc.
 - This is done with small QGIS processing script written in python
 
+## Where to get the data
+
+### Field boundaries
+
+The field boundaries can be simply taken from AOG fields folder - the Fields.kml
+
+You can import the file directly to QGIS as a vector layer
+
+### Weed spots
+
+There are several approaches and ideas on how to record the weed spots in the field
+
+One option we work on is a handheld device / smartphone app where you can record weed spots by walking around them in the field. If you are interested in this project have a look [here](https://github.com/joschindlbeck/agtracker).
+
+Another option would be to have drohnes flying and recording appearances of weed, either by manual postprocessing in QGIS or similar or by the use of computer vision.
+
+
 ## Step by step tutorial
 
 Step by step tutorial, tested with QGIS 3.20.2 & AGOpenGPS 5.5
