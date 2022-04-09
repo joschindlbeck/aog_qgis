@@ -6,7 +6,7 @@ The intention of this project is to enable a "spot spraying" functionality in [A
 As we did not want to change or modify the AGOpenGPS code, we use the following workaround:
 
 - AOG saves all applied areas in a local file called Sections.txt
-- We will generate such a Sections.txt file in that way, that all areas we do not want to apply are already applied and only the delta area remains
+- We will generate such a Sections.txt file in that way, that all areas where we do not want to apply are already applied and only the delta area remains
 - We do this basically by subtracting two vector layers in [QGIS](https://www.qgis.org/de/site/) software; the first layer is our field area, the other layer contains polygons marking our spots we want to apply on; the delta of the two layers is what we need to generate the Sections.txt for
 - To lower the geometric challange, the delta layer is filled with a mesh of squares; we use two sizes of squares, to balance the amount of squares on large, unapplied areas and also to have a higher accuracy on edges, etc.
 - This is done with small QGIS processing script written in python
