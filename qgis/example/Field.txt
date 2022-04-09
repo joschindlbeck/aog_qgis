@@ -1,0 +1,9 @@
+2021-November-16 07:43:22 PM
+$FieldDir
+Koch3
+$Offsets
+0,0
+Convergence
+0
+StartFix
+48.9636327590282,12.1934211840036
