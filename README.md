@@ -2,7 +2,7 @@
 
 ## Intention
 
-The intention of this project is to enable a "spot spraying" functionality in [AGOpenGPS](https://github.com/farmerbriantee/AgOpenGPS), meaning that only smaller spots of a field can be applied in AGOPenGPS with automatic section control.
+The intention of this project is to enable a "spot spraying" functionality in [AGOpenGPS](https://github.com/farmerbriantee/AgOpenGPS), meaning that only smaller spots of a field can be applied in AGOpenGPS with automatic section control.
 As we did not want to change or modify the AGOpenGPS code, we use the following workaround:
 
 - AOG saves all applied areas in a local file called Sections.txt
